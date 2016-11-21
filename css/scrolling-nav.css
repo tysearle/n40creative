@@ -20,6 +20,11 @@
     padding-bottom: 9px;
 }
 
+.social-icons img {
+    padding: 2px 8px 2px 8px;
+}
+
+
  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 font-size:20px;
 color:white;
@@ -60,6 +65,7 @@ input#email {
 }
 
  input.special {
+       border: 0px;
    background-color: #505F73;
 border-radius: 5px;
 padding: 10px 50px;
