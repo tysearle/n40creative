@@ -3,6 +3,10 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ .team h4 {
+    font-weight: 300;
+}
+
  /* Opacity #1 */
 .hover11 figure img {
 	opacity: 1;
@@ -280,6 +284,7 @@ of those sections to manage the look and feel of the site. */
   text-align: left;
   font-size: 20px;
     line-height: 38px;
+		    font-weight: 300;
 }
 
 .work-section {
