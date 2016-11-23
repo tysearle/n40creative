@@ -3,6 +3,11 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ .navbar-default .navbar-toggle {
+     border-color: transparent !important;
+     background-color: transparent !important;
+ }
+ 
  ul.nav.nav-tabs a {
     padding: 3px 10px !important;
     border-radius: 1px !important;
@@ -19,6 +24,17 @@
 	transition: .3s ease-in-out;
 }
 .hover11 figure:hover img {
+	opacity: .5;
+}
+
+/* Opacity #2 */
+
+.hover12 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover12 figure:hover img {
 	opacity: .5;
 }
 
@@ -119,7 +135,6 @@ font-weight: 300;
     color: white !important;
     background-color: #97999D !important;
     border-color: #ddd;
-    border-bottom-color: transparent !important;
     font-family: 'Raleway', sans-serif !important;
     font-weight: 300 !important;
     font-size: 20px;
@@ -370,7 +385,6 @@ of those sections to manage the look and feel of the site. */
 	color: white!important;
 	background-color: #fff;
 	border-color: #ddd;
-	border-bottom-color: transparent;
 }
 .with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu {
     background-color: #f5f5f5;
