@@ -7,7 +7,7 @@
      border-color: transparent !important;
      background-color: transparent !important;
  }
- 
+
  ul.nav.nav-tabs a {
     padding: 3px 10px !important;
     border-radius: 1px !important;
@@ -308,7 +308,6 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section p{
-  text-align: left;
   font-size: 20px;
     line-height: 38px;
 		    font-weight: 300;
