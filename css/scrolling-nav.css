@@ -3,6 +3,106 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+ /*Video Header*/
+.hero-content h1{
+  color:white;
+  letter-spacing: 15px;
+  font-size:40px;
+  padding-top:20px;
+  text-transform: uppercase;
+}
+ .hero-section .hero-content {
+     position: absolute;
+     top: 0;
+    left: 0;
+    bottom: 0;
+	right:0;
+     padding: 25px 0;
+     font-family: 'Raleway', sans-serif;
+ }
+
+ @media only screen
+ and (min-device-width : 320px)
+ and (max-device-width : 568px) {
+ .hero-section .hero-content {
+   position: absolute;
+   top: 0;
+ left: 0;
+ bottom: 0;
+right:0;
+     padding: 25px 0;
+     font-family: 'Raleway', sans-serif;
+ }
+ }
+
+ .hero-section .hero-content {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-flex-direction: column;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     -webkit-justify-content: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+ }
+
+ .hero-section .pattern-overlay {
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0.2;
+     background-image: url(../img/white-fly-screen.png);
+ }
+
+ .hero-section {
+     position: relative;
+     width: 100%;
+     height: 800px;
+     background-image: url(../img/MobileHeader.png);
+     background-repeat: no-repeat;
+     background-size:cover;
+     overflow: hidden;
+ }
+
+ @media only screen
+ and (min-device-width : 320px)
+ and (max-device-width : 568px) {
+
+ .hero-section {
+ height: 650px;}
+ }
+
+ .hero-section .hero-video {
+     position: absolute;
+     display: none;
+     top: 50%;
+     left: 50%;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     -webkit-transform: translateX(-50%) translateY(-50%);
+     transform: translateX(-50%) translateY(-50%);
+     background: url(../img/MobileHeader.png) no-repeat;
+     background-size: cover;
+ }
+
+ @media (min-width: 992px){
+ .hero-section .hero-video {
+     display: block;
+ }
+
+ }
+
+
+
+/*End of Video Header*/
  .navbar-default .navbar-toggle {
      border-color: transparent !important;
      background-color: transparent !important;
@@ -230,6 +330,12 @@ a#down {
      background-attachment: fixed;
  }
 
+ @media screen and (max-device-width: 1024px){
+.parallax {
+    background-attachment: scroll;
+}
+}
+
  .carousel h1{
    color:white;
    text-transform: uppercase;
@@ -349,6 +455,16 @@ of those sections to manage the look and feel of the site. */
     background-image: url(../img/header-img.jpg);
     -webkit-background-size: cover;
     background-size: cover;
+}
+
+.header {
+    background-image: url(../img/header-img.jpg);
+    -webkit-background-size: cover;
+background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:1000px;
+    background-attachment: fixed;
+background-position: top center;
 }
 
 
