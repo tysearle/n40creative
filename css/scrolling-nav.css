@@ -4,6 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+ .modal-footer a {
+     color: black;
+ }
+
+ .modal-footer a:hover {
+     text-decoration:none;
+ }
+ 
  /*Video Header*/
 .hero-content h1{
   color:white;
